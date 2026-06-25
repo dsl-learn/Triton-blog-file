@@ -1,0 +1,80 @@
+
+[
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "frame": {
+                                    "name": "load",
+                                    "type": "function"
+                                },
+                                "metrics": {
+                                    "cycles": 9504,
+                                    "device_id": "0",
+                                    "device_type": "1",
+                                    "normalized_cycles": 148.5
+                                }
+                            },
+                            {
+                                "children": [],
+                                "frame": {
+                                    "name": "store",
+                                    "type": "function"
+                                },
+                                "metrics": {
+                                    "cycles": 44689,
+                                    "device_id": "0",
+                                    "device_type": "1",
+                                    "normalized_cycles": 698.265625
+                                }
+                            }
+                        ],
+                        "frame": {
+                            "name": "kernel",
+                            "type": "function"
+                        },
+                        "metrics": {
+                            "cycles": 60177,
+                            "device_id": "0",
+                            "device_type": "1",
+                            "normalized_cycles": 940.265625
+                        }
+                    }
+                ],
+                "frame": {
+                    "name": "instrumented_vec_add[4096]",
+                    "type": "function"
+                },
+                "metrics": {
+                    "block_size": 256,
+                    "blocks": 16,
+                    "bytes": 49152,
+                    "flops": 4096
+                }
+            }
+        ],
+        "frame": {
+            "name": "ROOT",
+            "type": "function"
+        },
+        "metrics": {
+            "cycles": 0,
+            "normalized_cycles": 0
+        }
+    },
+    {
+        "CUDA": {
+            "0": {
+                "arch": "120",
+                "bus_width": 512,
+                "clock_rate": 2407000,
+                "memory_clock_rate": 14001000,
+                "num_sms": 170
+            }
+        }
+    }
+]
